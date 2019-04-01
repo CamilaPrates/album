@@ -1,1 +1,179 @@
-teste
+<!DOCTYPE html>
+<html lang="en" class="text-center">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Album example for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="album.css" rel="stylesheet">
+        <!-- Magnific Popup core CSS file -->
+        <link rel="stylesheet" href="plugin/magnific-popup.css">
+    </head>
+    <body>
+        <header>
+            <div class="collapse bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+</div>
+                </div>
+            </div>
+            <div class="navbar navbar-dark box-shadow bg-dark">
+                <div class="container d-flex justify-content-between bg-dark">
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                        <strong>Camila Prates Gudolle</strong>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main role="main" class="bg-dark">
+            <section class="jumbotron text-center border-dark bg-white" style="background-color:#FF0000">
+                <div class="container">
+                    <h1 class="jumbotron-heading font-italic font-weight-bold align-middle shadow-lg">Trabalho de Foto</h1>
+                    <p><b>Duo</b></p>
+                    <p class="lead text-muted">&nbsp; &nbsp;dois em um</p>
+                </div>
+            </section>
+            <div id="alerta" class="alert alert-success text-center" style="display:none" role="alert">
+                <b>Obrigado por votar!</b>
+            </div>
+            <div class="album py-5 border-primary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <a class="zoom" href="img/DSC_0050.jpg"> 
+                                    <img class="card-img-top shadow-lg" src="img/DSC_0050.jpg">
+                                </a>
+                                <div class="card-body">
+                                    <p class="card-text">Foto 1</p>
+                                    <button onclick="showAlert(this)" type="button" class="btn btn-success">Votar</button>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <a class="zoom" href="img/DSC_0053-2%20(1).jpg"> 
+                                    <img class="card-img-top shadow-lg" src="img/DSC_0053-2%20(1).jpg">
+                                </a>
+                                <div class="card-body">
+                                    <p class="card-text">Foto 2</p>
+                                    <button onclick="showAlert(this)" type="button" class="btn btn-success">Votar</button>
+                                </div>
+                            </div>                             
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <a class="zoom" href="img/DSC_0111.jpg">
+                                    <img class="card-img-top shadow-lg" src="img/DSC_0111.jpg">
+                                </a>
+                                <div class="card-body">
+                                    <p class="card-text">Foto 3</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+</div>
+                                    </div>
+                                    <button onclick="showAlert(this)" type="button" class="btn btn-success">Votar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <a class="zoom" href="img/DSC_0137.jpg" title="COISA TRI">
+                                    <img class="card-img-top shadow-lg" src="img/DSC_0137.jpg">
+                                </a>
+                                <div class="card-body">
+                                    <p class="card-text">Foto 4</p>
+                                    <button onclick="showAlert(this)" type="button" class="btn btn-success">Votar</button>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <a class="zoom" href="img/DSC_0107.jpg">
+                                    <img class="card-img-top shadow-lg" src="img/DSC_0107.jpg">
+                                </a>
+                                <div class="card-body">
+                                    <p class="card-text">Foto 5</p>
+                                    <button onclick="showAlert(this)" type="button" class="btn btn-success">Votar</button>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <a class="zoom" href="img/tabonita.jpg">
+                                    <img class="card-img-top" src="img/tabonita.jpg">
+                                </a>
+                                <div class="card-body">
+                                    <p class="card-text">Foto 6</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+</div>
+                                    </div>
+                                    <button onclick="showAlert(this)" type="button" class="btn btn-success">Votar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="text-muted">
+            <div class="container">
+                <p class="float-right"> </p>
+            </div>
+        </footer>
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- Jquery -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <script>
+            
+                    
+        function showAlert(btn){
+            var nomeDaFoto= $(btn).siblings(".card-text").text();
+            $('#alerta').text("Obrigada por votar na "+nomeDaFoto);
+        	$('#alerta').show(); 
+            $('html, body').animate({scrollTop:0}, 'slow');
+            return false;
+        
+        }
+        
+        $(document).ready(function() {
+          $('.zoom').magnificPopup({
+              type:'image',
+                  gallery: {
+                     enabled: true
+                  },
+              titleSrc: 'title'
+              
+          });
+        });
+            
+        
+        </script>
+    </body>
+</html>
